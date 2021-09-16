@@ -1,4 +1,4 @@
-baseurl: https://www.econdatasci.com
+baseurl: https://econdatasci.com
 languageCode: en-us
 theme: "hugo-theme-stack"
 paginate: 5
@@ -9,6 +9,9 @@ disqusShortname: econdatasci
 
 # GA Tracking ID
 googleAnalytics:
+
+#Ignore files
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl, it
@@ -161,7 +164,7 @@ menu:
           pre: home
           params:
               ### For demonstration purpose, the home link will be open in a new tab
-              newTab: true
+              newTab: false
 
 related:
     includeNewer: true

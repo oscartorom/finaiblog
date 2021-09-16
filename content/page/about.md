@@ -3,6 +3,7 @@ aliases:
 - about-us
 - about-hugo
 - contact
+layout: about
 date: "2021-10-01"
 description: A quick introduction to this blog
 lastmod: "2021-09-98"
